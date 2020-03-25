@@ -11,6 +11,7 @@ This driver must be built in "in-tree" mode.
 2. into file ".../drivers/net/wireless/realtek/Kconfig" insert line:
 
 source "/drivers/net/wireless/realtek/rtl8723bs/Kconfig"
+
 3. into file ".../drivers/net/wireless/realtek/Makefile" insert line:
 
 obj-$(CONFIG_RTL8723BS)        += rtl8723bs/
